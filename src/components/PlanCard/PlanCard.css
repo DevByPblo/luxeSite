@@ -1,0 +1,122 @@
+.plan-card {
+  height: 600px;
+  width: 350px;
+  padding: 2rem;
+  background: #fff;
+  border: 1px solid #e1e8ee;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  margin: 1rem auto;
+}
+
+.plan-card:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+.plan-header {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.header-background {
+  height: 5px;
+  background: #fd4d66;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.plan-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #242424;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.plan-price {
+  margin: 2rem 0;
+}
+
+.price-value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fd4d66;
+}
+
+.currency-sign {
+  font-size: 1.5rem;
+  vertical-align: top;
+}
+
+.price-main {
+  font-size: 3.5rem;
+}
+
+.price-decimal {
+  font-size: 1.8rem;
+  vertical-align: top;
+}
+
+.price-period {
+  font-size: 1rem;
+  color: #a1a2ac;
+  margin-left: 0.2rem;
+}
+
+.plan-features {
+  margin-bottom: 2rem;
+}
+
+.plan-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  padding: 0.75rem 0;
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.plan-action {
+  margin-top: 2rem;
+}
+
+.action-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #fd4d66;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.action-button:hover {
+  background: #e03e5b;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .plan-card {
+    height: auto;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .plan-title {
+    font-size: 1.5rem;
+  }
+
+  .price-value {
+    font-size: 2.5rem;
+  }
+}

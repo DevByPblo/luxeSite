@@ -1,0 +1,31 @@
+.price-section {
+  background-color: #f0eded;
+  padding: 50px 20px;
+}
+
+.price-section-heading {
+  text-align: center;
+  color: #363635;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.price-cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.price-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.get-started {
+  color: #525252;
+  font-size: 1rem;
+  text-align: center;
+}

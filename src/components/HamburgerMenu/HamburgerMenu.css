@@ -1,0 +1,71 @@
+.hamburger-react {
+  cursor: pointer;
+  display: none;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.hamburger-div {
+  position: absolute;
+  top: 60px;
+  right: -300px;
+  background-color: var(--theme-color);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+
+  border-radius: 4px;
+  width: 100%;
+  height: 45vh;
+  z-index: 999;
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+  overflow: hidden;
+}
+
+.hamburger-div.open {
+  right: 0;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(0);
+  background-color: whitesmoke;
+}
+
+.nav-links-burger {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links-burger li {
+  padding: 15px 20px;
+}
+
+.nav-links-burger a {
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  transition: color 0.3s;
+  text-align: center;
+  color: #333;
+}
+
+.nav-links-burger li:hover {
+  color: var(--theme-color);
+  background-color: whitesmoke;
+}
+
+.nav-links-burger li:hover {
+  background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 720px) {
+  .hamburger-react {
+    align-items: flex-end;
+    display: block;
+  }
+
+  .nav-links-burger li {
+    text-align: right;
+  }
+}
