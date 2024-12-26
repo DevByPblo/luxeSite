@@ -7,7 +7,7 @@ function Navbar() {
     <header>
       <nav className="navbar">
         <div class="logo">
-          <a href="#">LuxeSites</a>
+          <a href="/">LuxeSites</a>
         </div>
         <ul className="nav-links">
           <li>
@@ -17,19 +17,17 @@ function Navbar() {
             <a href="#Services">Services</a>
             <ul className="dropdown-menu">
               <li>
-                <a href="#">Mobile Optimisation</a>
+                <a href="/">Mobile Optimisation</a>
               </li>
               <li>
-                <a href="#">Web Design</a>
+                <a href="/">Web Design</a>
               </li>
               <li>
-                <a href="#">SEO</a>
+                <a href="/">SEO</a>
               </li>
             </ul>
           </li>
-          <li>
-            <a href="#">Our Work</a>
-          </li>
+
           <li>
             <a href="#PriceSection">Pricing</a>
           </li>

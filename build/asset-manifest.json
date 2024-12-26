@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/LuxeSiteProj/static/css/main.d45061c5.css",
+    "main.js": "/LuxeSiteProj/static/js/main.2ab6edca.js",
+    "static/media/seo.svg": "/LuxeSiteProj/static/media/seo.b3f3883420b6efc76a7a478711ae942c.svg",
+    "static/media/support.svg": "/LuxeSiteProj/static/media/support.d4f8c5600ab051f9c85eccf3072e6425.svg",
+    "static/media/mobile.svg": "/LuxeSiteProj/static/media/mobile.6c1645c0331cc02c29b74cfea755db11.svg",
+    "static/media/responsive.svg": "/LuxeSiteProj/static/media/responsive.39dde7677f9b39220d69d8f03f0e0053.svg",
+    "index.html": "/LuxeSiteProj/index.html",
+    "static/media/location.svg": "/LuxeSiteProj/static/media/location.400bbe6fc741ed90c2703d2493f5c2f6.svg",
+    "static/media/optimised.svg": "/LuxeSiteProj/static/media/optimised.d661f7e2edf560da8e3bde85e4836bcd.svg",
+    "main.d45061c5.css.map": "/LuxeSiteProj/static/css/main.d45061c5.css.map",
+    "main.2ab6edca.js.map": "/LuxeSiteProj/static/js/main.2ab6edca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d45061c5.css",
+    "static/js/main.2ab6edca.js"
+  ]
+}

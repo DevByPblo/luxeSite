@@ -49,9 +49,6 @@ function HamburgerMenu() {
               <a href="#ServicesSection">services</a>
             </li>
             <li>
-              <a href="#">Our Work</a>
-            </li>
-            <li>
               <a href="#PriceSection">Pricing</a>
             </li>
             <li>

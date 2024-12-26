@@ -25,7 +25,7 @@ const PlanCard = ({ title, price, features, mon }) => (
       </ul>
     </div>
     <div className="plan-action">
-      <a href="#" className="action-button">
+      <a href="/" className="action-button">
         GET STARTED
       </a>
     </div>

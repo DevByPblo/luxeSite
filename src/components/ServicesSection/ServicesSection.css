@@ -17,7 +17,7 @@
 
 .services-section p {
   color: 333;
-  font-size: 1remrem;
+  font-size: 0.9rem;
   padding: 10px;
   max-width: 900px;
   margin: 0 auto;
@@ -70,7 +70,7 @@
   transition: transform 0.3s ease;
 }
 
-.service-card:hover .service-card-bg {
+/* .service-card:hover .service-card-bg {
   transform: scale(1.5);
 }
 
@@ -85,7 +85,7 @@
 
 .service-card:focus .service-card-title {
   color: whitesmoke;
-}
+} */
 
 .service-card-title {
   font-size: 1.2rem;
